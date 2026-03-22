@@ -1,374 +1,338 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gayathri Kumar — Data Scientist & AI Engineer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gayathri Kumar | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio resume for Gayathri Kumar, Data Scientist focused on Generative AI, Agentic Systems, RAG pipelines, and applied machine learning."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">GK</a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
 
-  <!-- NAV -->
-  <nav class="nav" id="nav">
-    <a href="#hero" class="nav-logo">GK<span class="dot">.</span></a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-      <span class="theme-icon sun">☀</span>
-      <span class="theme-icon moon">◑</span>
-    </button>
-    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
+      <main id="top">
+        <section class="hero section">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Data Scientist • Generative AI • Agentic Systems</p>
+            <h1>
+              Gayathri Kumar builds
+              <span class="accent">intelligent systems</span>
+              that turn complex workflows into scalable products.
+            </h1>
+            <p class="hero-text">
+              Dallas-based AI engineer with 4+ years in Generative AI and 7+ years
+              of end-to-end delivery across Deloitte, Ford Motors, Bosch & Siemens,
+              and RSA Canada.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">View Projects</a>
+              <a class="button button-secondary" href="mailto:gayathrikumar.tx@gmail.com">Email</a>
+            </div>
+          </div>
 
-  <!-- MOBILE MENU -->
-  <div class="mobile-menu" id="mobileMenu">
-    <ul>
-      <li><a href="#about" class="mob-link">About</a></li>
-      <li><a href="#skills" class="mob-link">Skills</a></li>
-      <li><a href="#experience" class="mob-link">Experience</a></li>
-      <li><a href="#projects" class="mob-link">Projects</a></li>
-      <li><a href="#contact" class="mob-link">Contact</a></li>
-    </ul>
-  </div>
+          <aside class="hero-panel reveal">
+            <div class="panel-card status-card">
+              <p class="panel-label">Current Focus</p>
+              <h2>RAG, multi-agent orchestration, and production-ready AI systems</h2>
+              <ul class="mini-list">
+                <li>Model Context Protocol (MCP)</li>
+                <li>LangGraph, CrewAI, AutoGen</li>
+                <li>Multimodal RAG and VLMs</li>
+              </ul>
+            </div>
 
-  <!-- HERO -->
-  <section class="hero" id="hero">
-    <div class="hero-bg">
-      <div class="orb orb-1"></div>
-      <div class="orb orb-2"></div>
-      <div class="grid-lines"></div>
+            <div class="metrics-grid">
+              <article class="metric-card reveal">
+                <span class="metric-value">5M+</span>
+                <span class="metric-label">records migrated to cloud</span>
+              </article>
+              <article class="metric-card reveal">
+                <span class="metric-value">80+</span>
+                <span class="metric-label">hours/week recovered</span>
+              </article>
+              <article class="metric-card reveal">
+                <span class="metric-value">$130K</span>
+                <span class="metric-label">annual cost avoidance</span>
+              </article>
+              <article class="metric-card reveal">
+                <span class="metric-value">88%</span>
+                <span class="metric-label">model accuracy achieved</span>
+              </article>
+            </div>
+          </aside>
+        </section>
+
+        <section id="about" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Profile</p>
+            <h2>Gayathri Kumar builds AI systems that turn complex workflows into measurable impact.</h2>
+          </div>
+
+          <div class="about-grid">
+            <article class="spotlight-card reveal">
+              <h3>What she does best</h3>
+              <p>
+                Designs AI products at the intersection of machine learning,
+                document intelligence, cloud platforms, and operational scale.
+              </p>
+            </article>
+            <article class="spotlight-card reveal">
+              <h3>Where she stands out</h3>
+              <p>
+                Turns ambiguous business workflows into measurable automation with
+                RAG pipelines, computer vision, predictive models, and robust data systems.
+              </p>
+            </article>
+            <article class="spotlight-card reveal">
+              <h3>How she works</h3>
+              <p>
+                Combines technical depth, cross-functional collaboration, and production-minded
+                delivery to move AI from concept to reliable business value.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Experience</p>
+            <h2>Work that blends research-minded AI with enterprise execution.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-card reveal">
+              <div class="timeline-meta">
+                <p class="role">Senior Data Scientist</p>
+                <p class="company">Deloitte</p>
+                <p class="duration">Jul 2022 – Jul 2024</p>
+              </div>
+              <div class="timeline-content">
+                <p class="theme">Cloud Data Transformation & Analytics Automation</p>
+                <ul>
+                  <li>Migrated 5M+ records into a scalable Azure cloud ecosystem with full governance compliance.</li>
+                  <li>Automated ETL workflows with Azure Data Factory and Databricks, accelerating delivery by 3–4 weeks.</li>
+                  <li>Built Tableau and Plotly dashboards that increased executive decision speed by 39%.</li>
+                  <li>Received a performance-based spot award for technical excellence and leadership.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-card reveal">
+              <div class="timeline-meta">
+                <p class="role">Data Scientist</p>
+                <p class="company">Ford Motors via HCL Tech</p>
+                <p class="duration">Jan 2021 – Jul 2022</p>
+              </div>
+              <div class="timeline-content">
+                <p class="theme">Legacy Engineering Workflow Automation</p>
+                <ul>
+                  <li>Replaced manual blueprint data entry with an AI extraction ecosystem, recovering 80+ hours per week.</li>
+                  <li>Built OCR and computer vision pipelines with OpenCV and Tesseract for technical drawing intelligence.</li>
+                  <li>Improved data accuracy by 15% and aligned automation with automotive safety compliance standards.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-card reveal">
+              <div class="timeline-meta">
+                <p class="role">Data Analyst (Contract)</p>
+                <p class="company">Fedo.ai</p>
+                <p class="duration">Oct 2020 – Dec 2020</p>
+              </div>
+              <div class="timeline-content">
+                <p class="theme">AI-Powered Facial Analytics & Underwriting Intelligence</p>
+                <ul>
+                  <li>Built a transfer-learning classification pipeline on a self-labeled 5,000+ image dataset.</li>
+                  <li>Reached 88% accuracy in tobacco-induced aging biomarker detection.</li>
+                  <li>Automated landmark detection and normalization for scalable underwriting and fraud detection.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-card reveal">
+              <div class="timeline-meta">
+                <p class="role">Java Developer</p>
+                <p class="company">Bosch & Siemens Home Appliances</p>
+                <p class="duration">Feb 2018 – May 2020</p>
+              </div>
+              <div class="timeline-content">
+                <p class="theme">Operations Automation & Reporting</p>
+                <ul>
+                  <li>Architected web-based automation tools that reduced product operations latency by 30%.</li>
+                  <li>Built leadership dashboards that eliminated around 10 hours of manual reporting per week.</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="timeline-card reveal">
+              <div class="timeline-meta">
+                <p class="role">Quality Assurance Engineer</p>
+                <p class="company">RSA Canada via Cognizant</p>
+                <p class="duration">Apr 2016 – Jan 2018</p>
+              </div>
+              <div class="timeline-content">
+                <p class="theme">Insurance Systems Quality & Reliability</p>
+                <ul>
+                  <li>Resolved a decade-old production defect through deep data analysis and received formal client commendation.</li>
+                  <li>Orchestrated end-to-end QA lifecycles and automated regression suites for complex insurance workflows.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Selected Projects</p>
+            <h2>Interactive snapshots of applied AI work.</h2>
+          </div>
+
+          <div class="filter-bar reveal" role="tablist" aria-label="Project categories">
+            <button class="filter-chip is-active" data-filter="all" type="button">All</button>
+            <button class="filter-chip" data-filter="agentic" type="button">Agentic AI</button>
+            <button class="filter-chip" data-filter="llm" type="button">LLM / RAG</button>
+            <button class="filter-chip" data-filter="vision" type="button">Vision</button>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal" data-category="agentic llm vision">
+              <div class="project-tag">Agentic AI</div>
+              <h3>AI-Powered Document Intelligence & Cross-Reference System</h3>
+              <p>
+                Built a smart AI system that searches and cross-references thousands of engineering
+                documents and blueprints, eliminating hours of manual review.
+              </p>
+              <ul>
+                <li>Added automated quality checks to validate AI output accuracy.</li>
+                <li>Used MCP, ReAct, multi-agent orchestration, VLMs, G-Eval, KV caching, and ChromaDB.</li>
+              </ul>
+              <a href="https://github.com/gayathrikumari/Agentic-Document-Intelligence-Industrialized-Cross-Reference-Engine" target="_blank" rel="noreferrer">View GitHub</a>
+            </article>
+
+            <article class="project-card reveal" data-category="llm agentic">
+              <div class="project-tag">LLM / RAG</div>
+              <h3>LLM Fine-Tuning, Alignment & RAG Pipeline</h3>
+              <p>
+                Fine-tuned a large language model for more accurate conversation summarization and aligned
+                it with human feedback for safer, more reliable responses.
+              </p>
+              <ul>
+                <li>Built a context-aware retrieval pipeline for large unstructured document libraries.</li>
+                <li>Used FLAN-T5, LoRA, PEFT, RLHF, PPO, LangChain, watsonx.ai, and ROUGE metrics.</li>
+              </ul>
+              <a href="https://github.com/gayathrikumari/Enterprise-Grade-LLM-Optimization-Alignment-PEFT-RLHF-" target="_blank" rel="noreferrer">View GitHub</a>
+            </article>
+
+            <article class="project-card reveal" data-category="vision">
+              <div class="project-tag">Computer Vision</div>
+              <h3>Facial Analytics for Underwriting Intelligence</h3>
+              <p>
+                Built a facial analytics pipeline for biomarker detection using transfer learning and
+                automated landmark normalization.
+              </p>
+              <ul>
+                <li>Trained on a self-labeled 5,000+ image dataset.</li>
+                <li>Reached 88% classification accuracy and improved underwriting scalability.</li>
+              </ul>
+              <a href="#contact">Discuss this work</a>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" class="section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>A modern AI stack spanning orchestration, modeling, and cloud delivery.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-block reveal">
+              <h3>Generative & Agentic AI</h3>
+              <p>MCP, LangGraph, CrewAI, AutoGen, ReAct, multi-agent orchestration, RLHF, GRPO, self-correction loops.</p>
+            </article>
+            <article class="skill-block reveal">
+              <h3>RAG & LLM Engineering</h3>
+              <p>Multimodal RAG, GraphRAG, semantic chunking, VLMs, prompt engineering, PEFT, LoRA, fine-tuning, LLM evaluation.</p>
+            </article>
+            <article class="skill-block reveal">
+              <h3>Data & Cloud</h3>
+              <p>Azure Data Factory, Databricks, AWS, PySpark, ETL orchestration, Docker, Kubernetes, Medallion architecture.</p>
+            </article>
+            <article class="skill-block reveal">
+              <h3>ML, NLP & Vision</h3>
+              <p>Transformers, TensorFlow, PyTorch, OpenCV, Tesseract, predictive modeling, statistical analysis, reinforcement learning.</p>
+            </article>
+            <article class="skill-block reveal">
+              <h3>Languages & Analytics</h3>
+              <p>Python, SQL, R, Tableau, Power BI, Plotly, Matplotlib, Pandas, NumPy, Scikit-learn, ChromaDB.</p>
+            </article>
+            <article class="skill-block reveal">
+              <h3>Working Style</h3>
+              <p>Cross-functional delivery, enterprise modernization, compliance-aware automation, measurable business impact.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section education-section">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>Academic grounding paired with applied delivery.</h2>
+          </div>
+
+          <article class="education-card reveal">
+            <p class="degree">Master of Science in Information Science</p>
+            <p class="school">University of North Texas, Denton, Texas</p>
+            <p class="details">Concentration in Information Systems • GPA 4.0/4.0 • Aug 2024 – May 2026</p>
+          </article>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <div class="contact-card reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build practical AI systems that feel ambitious and reliable.</h2>
+            <p>
+              Available for data science, AI engineering, and applied Generative AI roles focused on
+              production-grade systems.
+            </p>
+            <div class="contact-links">
+              <a class="button button-primary" href="mailto:gayathrikumar.tx@gmail.com">gayathrikumar.tx@gmail.com</a>
+              <a class="button button-secondary" href="https://www.linkedin.com/in/gayathri-kumar-link/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
-    <div class="hero-content">
-      <p class="hero-eyebrow reveal-up delay-1">
-        <span class="status-dot"></span> Available for opportunities
-      </p>
-      <h1 class="hero-name reveal-up delay-2">
-        Gayathri<br /><em>Kumar</em>
-      </h1>
-      <p class="hero-role reveal-up delay-3">
-        Data Scientist <span class="sep">/</span> Generative AI <span class="sep">/</span> Agentic Systems
-      </p>
-      <p class="hero-desc reveal-up delay-4">
-        4+ years building production-grade AI — RAG pipelines, multi-agent orchestration, and predictive systems for Fortune 500 companies.
-      </p>
-      <div class="hero-cta reveal-up delay-5">
-        <a href="#projects" class="btn btn-primary">View Projects</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
-      </div>
-    </div>
-    <div class="hero-badge reveal-up delay-5">
-      <div class="badge-ring">
-        <svg viewBox="0 0 120 120" class="badge-svg">
-          <defs>
-            <path id="circle" d="M 60,60 m -45,0 a 45,45 0 1,1 90,0 a 45,45 0 1,1 -90,0"/>
-          </defs>
-          <text class="badge-text">
-            <textPath href="#circle">Data Scientist · AI Engineer · ML · Generative AI ·</textPath>
-          </text>
-        </svg>
-        <span class="badge-icon">⬡</span>
-      </div>
-    </div>
-    <div class="scroll-hint">
-      <span>Scroll</span>
-      <div class="scroll-line"></div>
-    </div>
-  </section>
 
-  <!-- ABOUT -->
-  <section class="section" id="about">
-    <div class="container">
-      <div class="section-label">01 — About</div>
-      <div class="about-grid">
-        <div class="about-text">
-          <h2 class="section-heading reveal-up">Turning data into decisions, and ideas into intelligent systems.</h2>
-          <p class="body-text reveal-up">I'm a Data Scientist and AI Engineer based in Dallas, TX, currently pursuing my M.S. in Information Science at the University of North Texas (GPA: 4.0). I specialize in building Generative AI systems that actually ship — from agentic RAG pipelines to multi-modal document intelligence.</p>
-          <p class="body-text reveal-up">My work spans Fortune 500 engagements at Deloitte, Ford Motors, and Bosch &amp; Siemens, where I've delivered cloud migrations, automated engineering workflows, and computer vision systems at scale.</p>
-          <div class="about-stats reveal-up">
-            <div class="stat">
-              <span class="stat-num" data-target="7">0</span><span class="stat-num">+</span>
-              <span class="stat-label">Years Experience</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num" data-target="4">0</span><span class="stat-num">+</span>
-              <span class="stat-label">Years in Gen AI</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num" data-target="5">0</span><span class="stat-num">M+</span>
-              <span class="stat-label">Records Migrated</span>
-            </div>
-            <div class="stat">
-              <span class="stat-num" data-target="130">0</span><span class="stat-num">K</span>
-              <span class="stat-label">Annual Cost Saved</span>
-            </div>
-          </div>
-        </div>
-        <div class="about-aside reveal-up">
-          <div class="info-card">
-            <div class="info-row"><span class="info-label">Location</span><span class="info-val">Dallas, TX</span></div>
-            <div class="info-row"><span class="info-label">Education</span><span class="info-val">M.S. Information Science, UNT — 4.0 GPA</span></div>
-            <div class="info-row"><span class="info-label">Focus</span><span class="info-val">Generative AI · Agentic Systems · MLOps</span></div>
-            <div class="info-row"><span class="info-label">Email</span><span class="info-val"><a href="mailto:gayathrikumar.tx@gmail.com">gayathrikumar.tx@gmail.com</a></span></div>
-          </div>
-          <a href="mailto:gayathrikumar.tx@gmail.com" class="btn btn-primary full-width">Download Resume</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section class="section section-alt" id="skills">
-    <div class="container">
-      <div class="section-label">02 — Skills</div>
-      <h2 class="section-heading reveal-up">Technical Expertise</h2>
-      <div class="skills-grid">
-
-        <div class="skill-card reveal-up">
-          <div class="skill-card-icon">⬡</div>
-          <h3>Generative & Agentic AI</h3>
-          <div class="skill-tags">
-            <span>MCP</span><span>LangGraph</span><span>CrewAI</span><span>AutoGen</span>
-            <span>ReAct Framework</span><span>Multi-Agent Orchestration</span>
-            <span>RLHF</span><span>GRPO</span><span>Self-Correction Loops</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal-up">
-          <div class="skill-card-icon">◈</div>
-          <h3>RAG & LLM Engineering</h3>
-          <div class="skill-tags">
-            <span>Multimodal RAG</span><span>Vision-Language Models</span><span>GraphRAG</span>
-            <span>Prompt Engineering</span><span>LoRA / PEFT</span><span>Fine-Tuning (FLAN-T5)</span>
-            <span>LLM-as-a-Judge</span><span>KV Caching</span><span>LangSmith / Opik</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal-up">
-          <div class="skill-card-icon">▣</div>
-          <h3>Cloud & Data Engineering</h3>
-          <div class="skill-tags">
-            <span>Azure Data Factory</span><span>Databricks</span><span>AWS (Lambda, Glue, S3)</span>
-            <span>Medallion Architecture</span><span>PySpark</span><span>ETL Orchestration</span>
-            <span>Docker</span><span>Kubernetes</span><span>watsonx.ai</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal-up">
-          <div class="skill-card-icon">◎</div>
-          <h3>Machine Learning & NLP</h3>
-          <div class="skill-tags">
-            <span>Transformers (BERT)</span><span>TensorFlow</span><span>PyTorch</span>
-            <span>Computer Vision (ResNet-50)</span><span>OpenCV</span><span>Reinforcement Learning</span>
-            <span>Statistical Modeling</span><span>Scikit-learn</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal-up">
-          <div class="skill-card-icon">⊞</div>
-          <h3>Languages & Tools</h3>
-          <div class="skill-tags">
-            <span>Python</span><span>SQL</span><span>R</span>
-            <span>Tableau</span><span>Power BI</span><span>Plotly</span>
-            <span>ChromaDB</span><span>LangChain</span><span>Tesseract</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="section" id="experience">
-    <div class="container">
-      <div class="section-label">03 — Experience</div>
-      <h2 class="section-heading reveal-up">Where I've Worked</h2>
-      <div class="timeline">
-
-        <div class="timeline-item reveal-up">
-          <div class="timeline-meta">
-            <span class="tl-period">Jul 2022 – Jul 2024</span>
-            <span class="tl-location">Dallas, TX</span>
-          </div>
-          <div class="timeline-body">
-            <div class="tl-header">
-              <h3 class="tl-role">Senior Data Scientist</h3>
-              <span class="tl-company">Deloitte</span>
-            </div>
-            <p class="tl-focus">Cloud Data Transformation & Analytics Automation</p>
-            <ul class="tl-bullets">
-              <li>Migrated 5M+ records to a scalable Azure cloud ecosystem with 100% compliance.</li>
-              <li>Automated ETL with Azure Data Factory &amp; Databricks, saving 3–4 weeks per project.</li>
-              <li>Built Tableau &amp; Plotly dashboards that increased executive decision speed by 39%.</li>
-              <li>Received Performance-Based Spot Award for technical excellence.</li>
-            </ul>
-            <div class="tl-tags"><span>Azure</span><span>Databricks</span><span>PySpark</span><span>Tableau</span></div>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal-up">
-          <div class="timeline-meta">
-            <span class="tl-period">Jan 2021 – Jul 2022</span>
-            <span class="tl-location">via HCL Tech</span>
-          </div>
-          <div class="timeline-body">
-            <div class="tl-header">
-              <h3 class="tl-role">Data Scientist</h3>
-              <span class="tl-company">Ford Motors</span>
-            </div>
-            <p class="tl-focus">Legacy Engineering Workflow Automation & Digital Transformation</p>
-            <ul class="tl-bullets">
-              <li>Automated PDF blueprint extraction, recovering 80+ hours/week and saving $130K annually.</li>
-              <li>Built OCR + CV pipeline with OpenCV &amp; Tesseract, improving data accuracy by 15%.</li>
-              <li>Led cross-functional sessions to ensure automation met automotive safety compliance.</li>
-            </ul>
-            <div class="tl-tags"><span>OpenCV</span><span>Tesseract</span><span>Computer Vision</span><span>OCR</span></div>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal-up">
-          <div class="timeline-meta">
-            <span class="tl-period">Oct – Dec 2020</span>
-            <span class="tl-location">Contract</span>
-          </div>
-          <div class="timeline-body">
-            <div class="tl-header">
-              <h3 class="tl-role">Data Analyst</h3>
-              <span class="tl-company">Fedo.ai</span>
-            </div>
-            <p class="tl-focus">AI-Powered Facial Analytics & Underwriting Intelligence</p>
-            <ul class="tl-bullets">
-              <li>Built binary classification pipeline via Transfer Learning on 5,000+ images — 88% accuracy.</li>
-              <li>Automated facial landmark detection for scalable biometric underwriting tools.</li>
-            </ul>
-            <div class="tl-tags"><span>Transfer Learning</span><span>OpenCV</span><span>Classification</span></div>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal-up">
-          <div class="timeline-meta">
-            <span class="tl-period">Feb 2018 – May 2020</span>
-            <span class="tl-location">BSH Group</span>
-          </div>
-          <div class="timeline-body">
-            <div class="tl-header">
-              <h3 class="tl-role">Java Developer</h3>
-              <span class="tl-company">Bosch & Siemens</span>
-            </div>
-            <ul class="tl-bullets">
-              <li>Architected web automation tools achieving 30% reduction in processing latency.</li>
-              <li>Built operational dashboards eliminating ~10 hours/week of manual reporting.</li>
-            </ul>
-            <div class="tl-tags"><span>Java</span><span>Automation</span><span>Dashboards</span></div>
-          </div>
-        </div>
-
-        <div class="timeline-item reveal-up">
-          <div class="timeline-meta">
-            <span class="tl-period">Apr 2016 – Jan 2018</span>
-            <span class="tl-location">via Cognizant</span>
-          </div>
-          <div class="timeline-body">
-            <div class="tl-header">
-              <h3 class="tl-role">QA Engineer</h3>
-              <span class="tl-company">RSA Canada</span>
-            </div>
-            <ul class="tl-bullets">
-              <li>Resolved a decade-old production defect, earning formal client commendation.</li>
-              <li>Automated regression suites reducing deployment-day defects across insurance logic.</li>
-            </ul>
-            <div class="tl-tags"><span>QA</span><span>Automation</span><span>Insurance Systems</span></div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="section section-alt" id="projects">
-    <div class="container">
-      <div class="section-label">04 — Projects</div>
-      <h2 class="section-heading reveal-up">Featured Work</h2>
-      <div class="projects-grid">
-
-        <div class="project-card reveal-up">
-          <div class="project-number">01</div>
-          <div class="project-content">
-            <h3>AI-Powered Document Intelligence & Automated Cross-Reference System</h3>
-            <p>A smart AI system that automatically searches and cross-references thousands of engineering documents and blueprints — eliminating hours of manual review. Includes an automated quality-check layer (LLM-as-a-Judge) that verifies outputs before use.</p>
-            <div class="project-tags">
-              <span>MCP</span><span>ReAct Framework</span><span>Multi-Agent</span>
-              <span>VLMs</span><span>G-Eval</span><span>KV Caching</span>
-              <span>Multimodal RAG</span><span>ChromaDB</span>
-            </div>
-            <a href="#" class="project-link">View Project →</a>
-          </div>
-        </div>
-
-        <div class="project-card reveal-up">
-          <div class="project-number">02</div>
-          <div class="project-content">
-            <h3>LLM Fine-Tuning, Alignment & RAG Pipeline</h3>
-            <p>Fine-tuned a large language model for conversation summarization, then trained it using RLHF to ensure safe, unbiased responses. Built an end-to-end RAG pipeline that retrieves relevant context from large document libraries for accurate, context-aware generation.</p>
-            <div class="project-tags">
-              <span>FLAN-T5</span><span>LoRA</span><span>PEFT</span>
-              <span>RLHF</span><span>PPO</span><span>LangChain</span>
-              <span>watsonx.ai</span><span>ChromaDB</span><span>ROUGE</span>
-            </div>
-            <a href="#" class="project-link">View Project →</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="section" id="contact">
-    <div class="container">
-      <div class="section-label">05 — Contact</div>
-      <div class="contact-block reveal-up">
-        <h2 class="contact-heading">Let's build something<br /><em>intelligent.</em></h2>
-        <p class="contact-sub">Open to full-time roles, contract work, and collaborations in AI/ML and data science.</p>
-        <div class="contact-links">
-          <a href="mailto:gayathrikumar.tx@gmail.com" class="contact-link">
-            <span class="cl-label">Email</span>
-            <span class="cl-val">gayathrikumar.tx@gmail.com</span>
-            <span class="cl-arrow">→</span>
-          </a>
-          <a href="https://www.linkedin.com/in/gayathri-kumar/" target="_blank" rel="noopener" class="contact-link">
-            <span class="cl-label">LinkedIn</span>
-            <span class="cl-val">linkedin.com/in/gayathri-kumar</span>
-            <span class="cl-arrow">→</span>
-          </a>
-          <a href="tel:4698031270" class="contact-link">
-            <span class="cl-label">Phone</span>
-            <span class="cl-val">469-803-1270</span>
-            <span class="cl-arrow">→</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <span class="footer-name">Gayathri Kumar</span>
-      <span class="footer-copy">© 2025 — Built with precision</span>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
